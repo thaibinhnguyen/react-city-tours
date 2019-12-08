@@ -12,7 +12,7 @@ handleInfo = () => {
     })
 }
 render() {
-    const { id,city,img,name,info } = this.props.tour;
+    const {id,city,img,name,info} = this.props.tour;
     const {removeTour} = this.props;
     return (
         <article className="tour">
